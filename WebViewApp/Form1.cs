@@ -16,5 +16,10 @@ namespace WebViewApp
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            webView1.Navigate("https://login2.mse-solutions.com/pointout14");
+        }
     }
 }
